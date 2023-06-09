@@ -1,0 +1,147 @@
+@media screen and (min-width: 801px) and (max-width: 1024px) {
+
+    .article1-main {
+        width: 100vh;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .destacados {
+        display: flex;
+        justify-content: center;
+        height: 50px;
+    }
+
+    .article2-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .caja-img {
+        width: 769px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .caja-img2 {
+        width: 700px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .imagen-home {
+        width: 200px;
+        height: 250px;
+        margin-left: 20px;
+        margin: auto;
+        align-items: center;
+        display: inline-block;
+    }
+
+
+    .tamaño {
+        width: 100px;
+        height: 80px;
+    }
+
+    .form-contacto {
+        height: 500px;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    .articulo1-compra {
+        justify-content: center;
+        align-items: center;
+        width: 100vh;
+    }
+    
+    .cont-grillas-prod {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat (6) min-content;
+        justify-items: center;
+      }
+    
+      .cont-grillas {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat (7) min-content;
+        justify-items: center;
+      }
+}
+
+/* responsive movil */
+
+@media screen and (min-width: 320px) and (max-width: 800px) {
+
+    .seccion1-main .article1-main {
+        width: 100vh;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .destacados {
+        display: flex;
+        justify-content: center;
+        height: 50px;
+    }
+
+    .imagen-home {
+        width: 250px;
+        height: 150px;
+    }
+
+    .tamaño {
+        width: 50px;
+        height: 50px;
+    }
+
+    .form-contacto {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 60px;
+        margin-bottom: 150px;
+    }
+
+    .articulo1-compra {
+        width: 100vh;
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    .articulo1-compra .imagen-compra {
+        width: 100vh;
+    }
+
+    .cont-grillas-prod {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat (12) min-content;
+        display: grid;
+        justify-items: center;
+    }
+
+    .cont-grillas {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(14) min-content;
+        display: grid;
+        justify-items: center;
+    }
+}

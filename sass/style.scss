@@ -1,0 +1,24 @@
+
+@import "./_header-import.scss";
+@import "./_footer-import.scss";
+@import "./_index-import.scss";
+@import "./_productos-import.scss";
+@import "./_creatinas-import.scss";
+@import "./_contacto-import.scss";
+@import "./_compra-import.scss";
+@import "./_media-squeare.scss";
+
+// /*FORMATEO DE ESTILO*/
+* {
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    transition: .5s;
+}
+

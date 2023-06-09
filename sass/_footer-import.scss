@@ -1,0 +1,32 @@
+/*EDICIÓN: FOOTER GENERAL*/
+
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    --mdb-gutter-x: 1.5rem;
+    --mdb-gutter-y: 0;
+    padding-right: calc(var(--mdb-gutter-x)*0.5);
+    padding-left: calc(var(--mdb-gutter-x)*0.5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.after,
+::before {
+    box-sizing: border-box;
+}
+
+.btn {
+    display: flex;
+    height: 60px;
+}
+
+.text-white {
+    text-align: center;
+    font-style: normal;
+}
