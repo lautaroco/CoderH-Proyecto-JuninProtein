@@ -1,71 +1,56 @@
-/*///////////////////////////////////////////////
-    /*paginas para cont-img grillas (pagina creatinas)*/
+.cont-grillas {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(4, 250px);
+    grid-template-rows: 300px 300px 300px 300px;
+    gap: 20px;
 
-    .cont-grillas {
-        display: grid;
-        justify-content: center;
-        align-items: center;
-        grid-template-columns: repeat(4, 250px);
-        grid-template-rows: 300px 300px 300px 300px;
-        gap: 20px;
-      
-        .img-crea {
-          width: 190px;
-          height: 200px;
-          transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-      
-          &:hover img {
+    .img-crea {
+        width: 190px;
+        height: 200px;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+        &:hover img {
             transform: scale(1.1);
             box-shadow: 0px 0px 10px rgb(11, 11, 11);
-          }
         }
-      }
+    }
+
+    .p-creatina {
+        margin: auto;
+        text-align: center;
+    }
+
+    .p-creatina .art-p-creatina {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .cont-imagen {
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+        position: relative;
+        background-color: red;
+    }
+
+    .cont1 .cont-imagen1 {
+        position: relative;
+        bottom: 0;
+    }
+
+    .cont1img {
+        width: 300px;
+        height: 200px;
 
 
+    }
 
-
-
-/* //////////////////////////////////////////////////////////// */
-/* parrafo de la pagina de productos */
-
-
-
-.p-creatina {
-    margin: auto;
-    text-align: center;
-}
-
-.p-creatina .art-p-creatina {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    justify-content: center;
-    text-align: center;
-}
-
-
-/*PÁGINA IMÁGENES*/
-
-.cont-imagen {
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
-    position: relative;
-    background-color: red;
-}
-
-.cont1 .cont-imagen1 {
-    position: relative;
-    bottom: 0;
-}
-
-.cont1img {
-    width: 300px;
-    height: 200px;
-
-
-}
-
-.img2-creatinas {
-    display: flex;
-    justify-content: space-around;
+    .img2-creatinas {
+        display: flex;
+        justify-content: space-around;
+    }
 }

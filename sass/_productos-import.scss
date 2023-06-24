@@ -1,8 +1,8 @@
 .cont-grillas-prod {
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(4, 250px);
-    grid-template-rows: 300px 300px 300px 300px;
+    grid-template-columns: repeat (4, 250px);
+    grid-template-rows: 300px 300px 300px;
     gap: 20px;
   
     .img {
@@ -17,4 +17,4 @@
         box-shadow: 0px 0px 10px rgb(11, 11, 11);
       }
     }
-  };
+  }

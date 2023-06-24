@@ -1,7 +1,18 @@
+.seccion-compras {
 
-.articulo1-compra .imagen-compra {
-    display: flex;
-    vertical-align: middle;
-    align-items: center;
-    width: 100vh;
+    .cart-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        padding: 20px;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: fit-content;
+    }
 }

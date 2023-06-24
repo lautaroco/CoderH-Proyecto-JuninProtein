@@ -1,0 +1,94 @@
+@media screen and (min-width: 320px) and (max-width: 800px) {
+    .article1-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vh;
+        height: 50px;
+        margin-top: 100px;
+    }
+
+    .destacados {
+        display: flex;
+        justify-content: center;
+        height: 50px;
+    }
+
+    .imagen-home {
+        width: 250px;
+        height: fit-content;
+        margin-left: 20px;
+        margin: auto;
+        align-items: center;
+        display: inline-block;
+    }
+
+    .tamaño {
+        width: 50px;
+        height: 50px;
+    }
+
+    .form-contacto {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 60px;
+        margin-bottom: 150px;
+    }
+
+    .articulo1-compra {
+        width: 300px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        margin-left: 50px;
+    }
+
+    .cont-grillas-prod {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat (12, min-content);
+        justify-items: center;
+    }
+
+    .cont-grillas {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat (14, min-content);
+        justify-items: center;
+    }
+
+    .centrado {
+        flex-direction: column;
+    }
+
+    .art-p-creatina {
+        padding: 20px;
+    }
+
+    .seccion-compras {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .cart-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+}

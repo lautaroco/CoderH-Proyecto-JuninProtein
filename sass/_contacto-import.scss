@@ -1,4 +1,5 @@
 .section-form {
+  max-width: 400px;
     flex: auto;
     justify-content: center;
     text-align: center;
@@ -45,6 +46,38 @@
   
         &:hover {
           background-color: #3e8e41;
+        }
+      }
+    }
+    .cart-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      
+      img {
+        width: 100px;
+        height: 100px;
+        margin-right: 10px;
+      }
+      
+      .item-details {
+        flex-grow: 1;
+        
+        h3 {
+          margin: 0;
+          font-size: 18px;
+        }
+        
+        p {
+          margin: 5px 0;
+        }
+      }
+      
+      .buttons {
+        display: flex;
+        
+        button {
+          margin-right: 10px;
         }
       }
     }

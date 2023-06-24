@@ -1,7 +1,5 @@
 @media screen and (min-width: 801px) and (max-width: 1024px) {
-
     .article1-main {
-        width: 100vh;
         height: 150px;
         display: flex;
         justify-content: center;
@@ -15,18 +13,12 @@
         height: 50px;
     }
 
-    .article2-main {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
     .caja-img {
         width: 769px;
         height: 400px;
         display: flex;
         justify-content: center;
+        margin: auto;
     }
 
     .caja-img2 {
@@ -34,17 +26,17 @@
         height: 400px;
         display: flex;
         justify-content: center;
+        margin: auto;
     }
 
     .imagen-home {
         width: 200px;
-        height: fit-content;
+        height: 250px;
         margin-left: 20px;
         margin: auto;
         align-items: center;
         display: inline-block;
     }
-
 
     .tamaño {
         width: 100px;
@@ -58,13 +50,15 @@
         flex-direction: column;
         margin-top: 50px;
         margin-bottom: 50px;
-        padding: 50px;
     }
 
     .articulo1-compra {
+        width: 600px;
+        height: 300px;
+        display: flex;
         justify-content: center;
-        align-items: center;
-        width: 100vh;
+        margin-top: 100px;
+        margin-bottom: 100px;
     }
 
     .cont-grillas-prod {
@@ -84,89 +78,20 @@
     .art-p-creatina {
         padding: 20px;
     }
-}
-
-/* responsive movil */
-
-@media screen and (min-width: 320px) and (max-width: 800px) {
-
-    .seccion1-main .article1-main {
-        width: 100vh;
-        height: 100px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 100px;
-    }
-
-    .destacados {
-        display: flex;
-        justify-content: center;
-        height: 50px;
-    }
-
-    .imagen-home {
-        width: 250px;
-        height: fit-content;
-    }
-
-    .tamaño {
-        width: 50px;
-        height: 50px;
-    }
-
-    .form-contacto {
-        justify-content: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 60px;
-        margin-bottom: 50px;
-        padding: 20px;
-    }
-
-    .articulo1-compra {
-        width: 100vh;
-        display: flex;
-        justify-content: center;
-        margin-top: 100px;
-        margin-bottom: 50px;
-    }
-
-    .articulo1-compra .imagen-compra {
-        width: 100vh;
-    }
-
-    .cont-grillas-prod {
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat (12, min-content);
-        display: grid;
-        justify-items: center;
-    }
-
-    .cont-grillas {
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat (14, min-content);
-        display: grid;
-        justify-items: center;
-    }
-
-    .centrado {
-        flex-direction: column;
-    }
-
-    .art-p-creatina {
-        padding: 20px;
-    }
 
     .cart-item {
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
-
+        flex-direction: row;
+        padding: 20px;
     }
-    img {
-        background-color: #54456b
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: fit-content;
     }
 }

@@ -3,67 +3,76 @@ header {
     width: 100%;
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
-    background-color: hwb(0 98% 2% / 0.995);
+    background-color: #ff5500;
+    background-color: #ff5500(35 0% 2% / 0.995);
     border-radius: 0 0 10px 10px;
     border: 1px solid rgba(8, 8, 8, 0.955);
     background-color: #db6930;
-}
 
-.header .navbar .navbar-expand-lg .bg-body-tertiary {
-    background-color: #db6930;
-}
+    header .style {
+        background-color: #ff5500;
+    }
 
-.top-nav {
-    text-align: center;
-    font-style: initial;
-    color: aliceblue;
-}
+    .header .navbar .navbar-expand-lg {
+        background-color: #ff5500;
+    }
 
-.navinicio {
-    justify-content: center;
-}
+    .top-nav {
+        text-align: center;
+        font-style: initial;
+        color: rgb(240, 248, 255);
+    }
 
-.caja-icons {
-    text-align: end;
-}
+    .navinicio {
+        justify-content: center;
+    }
 
-.container-input {
-    text-align: center;
-    margin-top: 20px;
-}
+    .container text-center {
+        background-color: #db6930;
+    }
 
-.div-p {
-    list-style-type: none;
-    text-align: center;
-    border: solid 2px black;
-    border-color: rgb(255, 165, 0);
-}
+    .caja-icons {
+        text-align: end;
+    }
 
-.pheader {
-    display: inline;
-    background-color: rgb(255, 165, 0)
-}
+    .container-input {
+        text-align: center;
+        margin-top: 20px;
+    }
 
-.ulnav {
-    list-style-type: none;
-    text-align: center;
-}
+    .div-p {
+        list-style-type: none;
+        text-align: center;
+        border: solid 2px black;
+        border-color: #db6930;
+    }
 
-.li {
-    display: inline;
-}
+    .pheader {
+        display: inline;
+        background-color: #db6930;
+    }
 
-.a {
-    color: black;
-    padding: 0 4px;
-    text-decoration: none;
-}
+    .ulnav {
+        list-style-type: none;
+        text-align: center;
+    }
 
-.div-logo {
-    border: solid 2px black;
-}
+    .li {
+        display: inline;
+    }
 
-input {
-    list-style-type: none;
-    align-items: center;
+    .a {
+        color: black;
+        padding: 0 4px;
+        text-decoration: none;
+    }
+
+    .div-logo {
+        border: solid 2px black;
+    }
+
+    input {
+        list-style-type: none;
+        align-items: center;
+    }
 }
